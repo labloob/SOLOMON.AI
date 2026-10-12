@@ -28,10 +28,13 @@ This framework is designed for community health clinics, family health units, nu
 - `docs/policies-and-procedures.md` — policies and operating procedures
 - `docs/sop-templates.md` — ready-to-use Standard Operating Procedures
 - `docs/incident-report-form.md` — incident reporting and follow-up form
+- `docs/provider-network.md` — health care provider network policies and guidance
+- `docs/nursing-outreach-program.md` — nursing outreach program policies and SOPs
 
 ## Main Theme
 
 “Care for the community, safety for every patient, and excellence in every service.”
+
 
 ## Arabic
 
@@ -43,7 +46,7 @@ This framework is designed for community health clinics, family health units, nu
 
 SOLOMON.AI هو إطار إداري وصحي ثنائي اللغة مصمم لمركز الرعاية الصحية المجتمعية الذي يقدم خدمات التمريض، والرعاية الوقائية، والتثقيف الصحي، ودعم الأسرة، والخدمات السريرية القائمة على المجتمع.
 
-يقدم هذا المستودع نهجًا منظمًا للحوكمة، وسلامة المرضى، والتوثيق، وضمان الجودة، والوقاية من العدوى، والإبلاغ عن ��لحوادث، والتميز التشغيلي لمراكز الرعاية الصحية المجتمعية وفرق مقدمي الخدمة.
+يقدم هذا المستودع نهجًا منظمًا للحوكمة، وسلامة المرضى، والتوثيق، وضمان الجودة، والوقاية من العدوى، والإبلاغ عن الحوادث، والتميز التشغيلي لمراكز الرعاية الصحية المجتمعية وفرق مقدمي الخدمة.
 
 ## الأهداف
 
@@ -65,6 +68,8 @@ SOLOMON.AI هو إطار إداري وصحي ثنائي اللغة مصمم لم
 - `docs/policies-and-procedures.md` — السياسات والإجراءات التشغيلية
 - `docs/sop-templates.md` — قوالب إجراءات تشغيل موحدة جاهزة للاستخدام
 - `docs/incident-report-form.md` — نموذج للإبلاغ عن الحوادث والمتابعة
+- `docs/provider-network.md` — سياسات وإرشادات شبكة مقدمي الرعاية الصحية
+- `docs/nursing-outreach-program.md` — سياسات وبرامج التمريض الميداني وإجراءات التشغيل
 
 ## الموضوع الرئيسي
 
