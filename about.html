@@ -1,105 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About | SOLOMON.AI</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <div class="brand-block">
-        <div class="brand-mark">S</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | SOLOMON.AI</title>
+    <meta name="description" content="About SOLOMON.AI and the healthcare mission behind our provider network and community-centered care model." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="SOLOMON.AI home">
+          <span class="brand-mark">S</span>
+          <span>
+            <span class="brand-name">SOLOMON.AI</span>
+            <span class="brand-tag">Community Health Care Center</span>
+          </span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html" class="active">About</a>
+          <a href="services.html">Services</a>
+          <a href="provider-network.html">Provider Network</a>
+          <a href="outreach.html">Outreach</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="lang-switcher" aria-label="Language switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="ar">AR</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <div class="container narrow-page">
+        <div class="section-head page-top en">
+          <p>Our mission</p>
+          <h1>Building healthier communities through coordinated care.</h1>
+        </div>
+        <div class="section-head page-top ar hidden">
+          <p>مهمتنا</p>
+          <h1>بناء مجتمعات أكثر صحة من خلال رعاية منسقة.</h1>
+        </div>
+
+        <div class="content-card en">
+          <p>SOLOMON.AI was created to provide a practical and structured framework for community-based healthcare organizations, provider networks, and nursing outreach teams. The mission is to support safer, more transparent, and more efficient healthcare delivery while keeping patient-centered care at the center of every decision.</p>
+          <p>We support organizations serving families, households, and underserved populations through policies, governance structures, SOP documentation, quality assurance programs, and care coordination practices. The framework improves consistency, reduces service gaps, and strengthens trust between patients, staff, and partner organizations.</p>
+        </div>
+
+        <div class="content-card ar hidden">
+          <p>تم إنشاء SOLOMON.AI لتوفير إطار عملي ومنظم لمؤسسات الرعاية الصحية المجتمعية، وشبكات مقدمي الخدمة، وفرق التمريض الميداني. تتمثل المهمة في دعم رعاية صحية أكثر أمانًا وشفافية وكفاءة مع الحفاظ على رعاية المريض في مركز كل قرار.</p>
+          <p>نُدعم المنظمات التي تخدم الأسر والأفراد والفئات غير المخدومة من خلال السياسات، وهياكل الحوكمة، وتوثيق إجراءات التشغيل، وبرامج ضمان الجودة، وممارسات تنسيق الرعاية. يساعد هذا الإطار على تحسين الاتساق وتقليل فجوات الخدمة وتعزيز الثقة بين المرضى والموظفين والمنظمات الشريكة.</p>
+        </div>
+
+        <div class="info-grid">
+          <div class="mini-card en">
+            <h3>Core values</h3>
+            <ul>
+              <li>Patient safety</li>
+              <li>Respect and dignity</li>
+              <li>Quality and accountability</li>
+              <li>Transparency and trust</li>
+            </ul>
+          </div>
+          <div class="mini-card ar hidden">
+            <h3>القيم الأساسية</h3>
+            <ul>
+              <li>سلامة المريض</li>
+              <li>الاحترام والكرامة</li>
+              <li>الجودة والمساءلة</li>
+              <li>الشفافية والثقة</li>
+            </ul>
+          </div>
+
+          <div class="mini-card en">
+            <h3>Key focus areas</h3>
+            <ul>
+              <li>Home care integration</li>
+              <li>Provider network governance</li>
+              <li>Community outreach</li>
+              <li>Public health initiatives</li>
+            </ul>
+          </div>
+          <div class="mini-card ar hidden">
+            <h3>مجالات التركيز الرئيسية</h3>
+            <ul>
+              <li>تكامل الرعاية المنزلية</li>
+              <li>حوكمة شبكة المزودين</li>
+              <li>التوعية المجتمعية</li>
+              <li>مبادرات الصحة العامة</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
         <div>
           <div class="brand-name">SOLOMON.AI</div>
-          <div class="brand-tag">Community Health Care Center</div>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="contact.html">Contact</a>
         </div>
       </div>
-      <nav class="main-nav">
-        <a href="index.html">Home</a>
-        <a href="about.html" class="active">About</a>
-        <a href="services.html">Services</a>
-        <a href="provider-network.html">Provider Network</a>
-        <a href="outreach.html">Outreach</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-      <div class="lang-switcher">
-        <button type="button" class="lang-btn active" data-lang="en">EN</button>
-        <button type="button" class="lang-btn" data-lang="ar">AR</button>
-      </div>
-    </div>
-  </header>
+    </footer>
 
-  <main class="page-main">
-    <div class="container narrow-page">
-      <div class="page-header en">
-        <p class="section-tag">Our mission</p>
-        <h1>Building healthier communities through coordinated healthcare.</h1>
-      </div>
-      <div class="page-header ar hidden">
-        <p class="section-tag">مهمتنا</p>
-        <h1>بناء مجتمعات أكثر صحة من خلال رعاية صحية منسقة.</h1>
-      </div>
-
-      <div class="content-card en">
-        <p>SOLOMON.AI was created to provide a structured and practical framework for community-based healthcare organizations, provider networks, and nursing outreach teams. Our goal is to help services become safer, more transparent, and more resilient while keeping patient-centered care at the center of every process.</p>
-        <p>We support organizations that serve families, individuals, and underserved populations through policies, SOPs, quality improvement systems, and provider coordination practices. Our framework helps reduce gaps in care, improve patient trust, and strengthen operability across clinics, home services, and public health delivery models.</p>
-      </div>
-      <div class="content-card ar hidden">
-        <p>تم إنشاء SOLOMON.AI لتوفير إطار منظم وعملي لمؤسسات الرعاية الصحية المجتمعية، وشبكات مقدمي الخدمة، وفرق التمريض الميداني. هدفنا هو帮助 الخدمات أن تصبح أكثر أمانًا وشفافية وقدرة على الصمود مع الحفاظ على رعاية المريض في مركز كل عملية.</p>
-        <p>نُدعم المنظمات التي تخدم الأسر والأفراد والفئات غير المخدومة من خلال السياسات، وإجراءات التشغيل، وأنظمة تحسين الجودة، وممارسات تنسيق المزودين. يساعد إطارنا على تقليل فجوات الرعاية، وتحسين ثقة المرضى، وتقوية التشغيل عبر العيادات، والخدمات المنزلية، ونماذج تقديم الصحة العامة.</p>
-      </div>
-
-      <div class="info-grid">
-        <div class="mini-card en">
-          <h3>Core values</h3>
-          <ul>
-            <li>Patient safety</li>
-            <li>Respect and dignity</li>
-            <li>Quality and accountability</li>
-            <li>Transparency and trust</li>
-          </ul>
-        </div>
-        <div class="mini-card ar hidden">
-          <h3>القيم الأساسية</h3>
-          <ul>
-            <li>سلامة المريض</li>
-            <li>الاحترام والكرامة</li>
-            <li>الجودة والمساءلة</li>
-            <li>الشفافية والثقة</li>
-          </ul>
-        </div>
-
-        <div class="mini-card en">
-          <h3>Key focus areas</h3>
-          <ul>
-            <li>Home care integration</li>
-            <li>Provider network governance</li>
-            <li>Community outreach</li>
-            <li>Public health initiatives</li>
-          </ul>
-        </div>
-        <div class="mini-card ar hidden">
-          <h3>مجالات التركيز الرئيسية</h3>
-          <ul>
-            <li>تكامل الرعاية المنزلية</li>
-            <li>حوكمة شبكة المزودين</li>
-            <li>التوعية المجتمعية</li>
-            <li>مبادرات الصحة العامة</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-wrap">
-      <div><div class="brand-name">SOLOMON.AI</div></div>
-      <div class="footer-links"><a href="index.html">Home</a><a href="contact.html">Contact</a></div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

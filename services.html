@@ -1,77 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Services | SOLOMON.AI</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <div class="brand-block">
-        <div class="brand-mark">S</div>
-        <div>
-          <div class="brand-name">SOLOMON.AI</div>
-          <div class="brand-tag">Community Health Care Center</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | SOLOMON.AI</title>
+    <meta name="description" content="Healthcare services and operational programs offered by SOLOMON.AI." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="SOLOMON.AI home">
+          <span class="brand-mark">S</span>
+          <span>
+            <span class="brand-name">SOLOMON.AI</span>
+            <span class="brand-tag">Community Health Care Center</span>
+          </span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html" class="active">Services</a>
+          <a href="provider-network.html">Provider Network</a>
+          <a href="outreach.html">Outreach</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="lang-switcher" aria-label="Language switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="ar">AR</button>
         </div>
       </div>
-      <nav class="main-nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html" class="active">Services</a>
-        <a href="provider-network.html">Provider Network</a>
-        <a href="outreach.html">Outreach</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-      <div class="lang-switcher">
-        <button type="button" class="lang-btn active" data-lang="en">EN</button>
-        <button type="button" class="lang-btn" data-lang="ar">AR</button>
-      </div>
-    </div>
-  </header>
+    </header>
 
-  <main class="page-main">
-    <div class="container narrow-page">
-      <div class="page-header en">
-        <p class="section-tag">Services</p>
-        <h1>Comprehensive care services for every stage of health.</h1>
-      </div>
-      <div class="page-header ar hidden">
-        <p class="section-tag">الخدمات</p>
-        <h1>خدمات رعاية شاملة لكل مرحلة من مراحل الصحة.</h1>
-      </div>
+    <main class="page-main">
+      <div class="container narrow-page">
+        <div class="section-head page-top en">
+          <p>Services</p>
+          <h1>Integrated care services for every phase of wellness.</h1>
+        </div>
+        <div class="section-head page-top ar hidden">
+          <p>الخدمات</p>
+          <h1>خدمات رعاية متكاملة لكل مرحلة من مراحل الصحة.</h1>
+        </div>
 
-      <div class="content-card en">
-        <ul class="bullet-list">
-          <li>Primary and preventive healthcare</li>
-          <li>Family medicine and chronic disease support</li>
-          <li>Home care nursing and follow-up visits</li>
-          <li>Public health awareness campaigns</li>
-          <li>Referral coordination and care navigation</li>
-          <li>Clinical documentation and quality monitoring</li>
-        </ul>
-      </div>
-      <div class="content-card ar hidden">
-        <ul class="bullet-list">
-          <li>الرعاية الأولية والوقائية</li>
-          <li>رعاية الأسرة ودعم الأمراض المزمنة</li>
-          <li>التمريض المنزلي وزيارات المتابعة</li>
-          <li>حملات التوعية الصحية العامة</li>
-          <li>تنسيق الإحالات وتوجيه الرعاية</li>
-          <li>التوثيق السريري ومراقبة الجودة</li>
-        </ul>
-      </div>
-    </div>
-  </main>
+        <div class="content-card en">
+          <ul class="bullet-list">
+            <li>Primary and preventive healthcare</li>
+            <li>Family-focused nursing and clinical support</li>
+            <li>Home care and post-discharge follow-up</li>
+            <li>Public health awareness and education campaigns</li>
+            <li>Referral coordination and care navigation</li>
+            <li>Clinical documentation and quality monitoring</li>
+          </ul>
+        </div>
 
-  <footer class="site-footer">
-    <div class="container footer-wrap">
-      <div><div class="brand-name">SOLOMON.AI</div></div>
-      <div class="footer-links"><a href="index.html">Home</a><a href="contact.html">Contact</a></div>
-    </div>
-  </footer>
+        <div class="content-card ar hidden">
+          <ul class="bullet-list">
+            <li>الرعاية الأولية والوقائية</li>
+            <li>الدعم العائلي والتمريضي والسريري</li>
+            <li>الرعاية المنزلية والمتابعة بعد الخروج</li>
+            <li>حملات التوعية والصحة العامة</li>
+            <li>تنسيق الإحالات وتوجيه الرعاية</li>
+            <li>التوثيق السريري ومراقبة الجودة</li>
+          </ul>
+        </div>
+      </div>
+    </main>
 
-  <script src="script.js"></script>
-</body>
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <div class="brand-name">SOLOMON.AI</div>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>

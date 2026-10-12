@@ -6,22 +6,22 @@ document.addEventListener('DOMContentLoaded', () => {
   function applyLanguage(lang) {
     const isArabic = lang === 'ar';
 
-    englishEls.forEach(el => {
+    englishEls.forEach((el) => {
       el.classList.toggle('hidden', isArabic);
     });
 
-    arabicEls.forEach(el => {
+    arabicEls.forEach((el) => {
       el.classList.toggle('hidden', !isArabic);
     });
 
-    langButtons.forEach(btn => {
+    langButtons.forEach((btn) => {
       btn.classList.toggle('active', btn.dataset.lang === lang);
     });
 
     document.documentElement.lang = lang;
   }
 
-  langButtons.forEach(btn => {
+  langButtons.forEach((btn) => {
     btn.addEventListener('click', () => applyLanguage(btn.dataset.lang));
   });
 
