@@ -1,160 +1,398 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>SOLOMON.AI — Community Health Care Center</title>
-  <style>
-    :root{--accent:#2d7ef7;--muted:#555}
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;line-height:1.5;margin:0;color:#222}
-    header{background:linear-gradient(90deg,#f6f9ff,#fff);padding:36px 20px;border-bottom:1px solid #eee}
-    .container{max-width:1000px;margin:0 auto}
-    .brand{display:flex;align-items:center;gap:16px}
-    .logo{width:64px;height:64px;background:var(--accent);border-radius:8px;display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
-    h1{margin:0;font-size:24px}
-    p.lead{color:var(--muted);margin:8px 0 0}
-    nav{margin-top:18px}
-    nav a{margin-right:12px;color:var(--accent);text-decoration:none}
-    main{padding:28px 20px}
-    .grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
-    .card{background:#fff;border:1px solid #eee;padding:18px;border-radius:8px;box-shadow:0 1px 3px rgba(30,30,30,0.04)}
-    .actions{margin-top:12px}
-    .btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 14px;border-radius:6px;text-decoration:none}
-    footer{padding:20px;border-top:1px solid #f0f0f0;color:#666;text-align:center}
-    .links a{color:var(--accent);text-decoration:none}
-    .rtl{direction:rtl;text-align:right}
-    @media(max-width:800px){.grid{grid-template-columns:1fr}} 
-    .module-list{list-style:none;padding:0;margin:0}
-    .module-list li{padding:6px 0;border-bottom:1px dashed #f0f0f0}
-    .small{font-size:13px;color:var(--muted)}
-    .toggle {margin-left:8px;padding:6px 10px;border-radius:6px;border:1px solid #ddd;background:white;cursor:pointer}
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOLOMON.AI | Community Health Care Center</title>
+  <meta name="description" content="SOLOMON.AI provides bilingual healthcare policy, provider network, home care, and nursing outreach resources for community health services." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div class="brand">
-        <div class="logo">S</div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <div class="brand-block">
+        <div class="brand-mark">S</div>
         <div>
-          <h1>SOLOMON.AI — Community Health Care Center</h1>
-          <p class="lead">Bilingual policies, SOPs, and operational resources for provider networks, home care, and public health services.</p>
-        </div>
-        <div style="margin-left:auto">
-          <button class="toggle" onclick="setLang('en')">English</button>
-          <button class="toggle" onclick="setLang('ar')">العربية</button>
+          <div class="brand-name">SOLOMON.AI</div>
+          <div class="brand-tag">Community Health Care Center</div>
         </div>
       </div>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#modules">Modules</a>
-        <a href="#get-started">Get Started</a>
-        <a href="https://github.com/labloob/SOLOMON.AI">View on GitHub</a>
+      <nav class="main-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="provider-network.html">Provider Network</a>
+        <a href="outreach.html">Outreach</a>
+        <a href="contact.html">Contact</a>
       </nav>
+      <div class="lang-switcher">
+        <button type="button" class="lang-btn active" data-lang="en">EN</button>
+        <button type="button" class="lang-btn" data-lang="ar">AR</button>
+      </div>
     </div>
   </header>
 
   <main>
-    <div class="container">
-      <section id="about" class="grid">
-        <div class="card" id="en-card">
-          <h2>About the Project</h2>
-          <p>SOLOMON.AI is a bilingual (English / Arabic) framework created for a Community Health Care Center and Provider Network that includes home care and public health services. It contains policies, procedures, SOP templates, incident reporting forms, and governance materials to help deliver safe, consistent, and community-centered care.</p>
-          <p class="small">Theme: Care for the community, safety for every patient, and excellence in every service.</p>
-        </div>
-        <div class="card rtl" id="ar-card" style="display:none">
-          <h2>نبذة عن المشروع</h2>
-          <p>SOLOMON.AI هو إطار ثنائي اللغة (الإنجليزية / العربية) مُصمم لمركز الرعاية الصحية المجتمعية وشبكة مقدمي الرعاية التي تتضمن الرعاية المنزلية والخدمات الصحية العامة. يحتوي على سياسات، وإجراءات، وقوالب SOP، ونماذج إبلاغ عن الحوادث، ومواد الحوكمة لدعم تقديم رعاية آمنة ومتسقة ومركزة على المجتمع.</p>
-          <p class="small">الموضوع: رعاية المجتمع، سلامة كل مريض، وتميز في كل خدمة.</p>
-        </div>
-      </section>
-
-      <section id="modules" style="margin-top:20px">
-        <h3>Key Modules / الوحدات الرئيسية</h3>
-        <div class="grid">
-          <div class="card">
-            <h4>Provider Network</h4>
-            <p class="small">Governance, credentialing, referrals, data sharing, and SLAs.</p>
-            <ul class="module-list">
-              <li><a class="links" href="https://github.com/labloob/SOLOMON.AI/blob/main/docs/provider-network.md">Provider Network (EN)</a></li>
-              <li><a class="links" href="https://github.com/labloob/SOLOMON.AI/blob/main/docs/policies-and-procedures.md">Policies & Procedures</a></li>
-              <li><a class="links" href="https://github.com/labloob/SOLOMON.AI/blob/main/docs/roles-and-responsibilities.md">Roles & Responsibilities</a></li>
-            </ul>
-          </div>
-
-          <div class="card rtl" style="display:none" id="modules-ar">
-            <h4>شبكة مقدمي الرعاية</h4>
-            <p class="small">الحوكمة، التحقق من المؤهلات، الإحالات، مشاركة البيانات، واتفاقيات مستوى الخدمة.</p>
-            <ul class="module-list">
-              <li><a class="links" href="https://github.com/labloob/SOLOMON.AI/blob/main/docs/provider-network.md">شبكة مقدمي الرعاية (AR)</a></li>
-              <li><a class="links" href="https://github.com/labloob/SOLOMON.AI/blob/main/docs/policies-and-procedures.md">السياسات والإجراءات</a></li>
-              <li><a class="links" href="https://github.com/labloob/SOLOMON.AI/blob/main/docs/roles-and-responsibilities.md">الأدوار والمسؤوليات</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div style="margin-top:14px" class="grid">
-          <div class="card">
-            <h4>Home Care & Nursing Outreach</h4>
-            <p class="small">Field visit SOPs, safety, supplies, documentation, and follow-up.</p>
-            <ul class="module-list">
-              <li><a class="links" href="https://github.com/labloob/SOLOMON.AI/blob/main/docs/nursing-outreach-program.md">Nursing Outreach (EN)</a></li>
-              <li><a class="links" href="https://github.com/labloob/SOLOMON.AI/blob/main/docs/sop-templates.md">SOP Templates</a></li>
-              <li><a class="links" href="https://github.com/labloob/SOLOMON.AI/blob/main/docs/incident-report-form.md">Incident Report</a></li>
-            </ul>
-          </div>
-
-          <div class="card rtl" style="display:none">
-            <h4>الرعاية المنزلية وبرنامج التمريض الميداني</h4>
-            <p class="small">إجراءات زيارات الميدان، السلامة، الإمدادات، التوثيق، والمتابعة.</p>
-            <ul class="module-list">
-              <li><a class="links" href="https://github.com/labloob/SOLOMON.AI/blob/main/docs/nursing-outreach-program.md">التمريض الميداني (AR)</a></li>
-              <li><a class="links" href="https://github.com/labloob/SOLOMON.AI/blob/main/docs/sop-templates.md">قوالب SOP</a></li>
-              <li><a class="links" href="https://github.com/labloob/SOLOMON.AI/blob/main/docs/incident-report-form.md">نموذج الإبلاغ عن الحوادث</a></li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section id="get-started" style="margin-top:22px">
-        <div class="card">
-          <h3>Get Started / ابدأ الآن</h3>
-          <p>Clone or download this repository to use the templates and policies. Customize the SOPs, forms, and governance materials for your local regulations and clinical context.</p>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow en">Healthcare Network & Community Care</div>
+          <div class="eyebrow ar hidden">شبكة الرعاية الصحية والخدمات المجتمعية</div>
+          <h1 class="en">Smart, connected care for healthier communities.</h1>
+          <h1 class="ar hidden">رعاية ذكية ومتصلة لبناء مجتمعات أكثر صحة.</h1>
+          <p class="lead en">SOLOMON.AI supports a provider network, home care services, public health programs, and nursing outreach initiatives with bilingual policy tools, SOPs, quality assurance, and service continuity.</p>
+          <p class="lead ar hidden">يدعم SOLOMON.AI شبكة مقدمي الرعاية، وخدمات الرعاية المنزلية، وبرامج الصحة العامة، ومبادرات التمريض الميداني عبر أدوات سياسات ثنائية اللغة، إجراءات تشغيل موحدة، ضمان جودة، واستمرارية الخدمة.</p>
           <div class="actions">
-            <a class="btn" href="https://github.com/labloob/SOLOMON.AI">Open in GitHub</a>
-            <a class="btn" style="background:#37b24d;margin-left:8px" href="https://github.com/labloob/SOLOMON.AI/archive/refs/heads/main.zip">Download ZIP</a>
+            <a href="services.html" class="btn primary en">Explore Services</a>
+            <a href="services.html" class="btn primary ar hidden">استكشف الخدمات</a>
+            <a href="contact.html" class="btn secondary en">Contact Us</a>
+            <a href="contact.html" class="btn secondary ar hidden">تواصل معنا</a>
           </div>
-          <p class="small" style="margin-top:8px">To publish as a website: enable GitHub Pages in this repository settings and select the main branch. I can help publish and style a hosted site if you want.</p>
         </div>
-      </section>
+        <div class="hero-panel en">
+          <div class="panel-box">
+            <div class="metric"><span>35+</span><small>Health programs</small></div>
+            <div class="metric"><span>24/7</span><small>Care coordination</small></div>
+            <div class="metric"><span>100%</span><small>Quality focus</small></div>
+          </div>
+        </div>
+        <div class="hero-panel ar hidden">
+          <div class="panel-box">
+            <div class="metric"><span>35+</span><small>برامج صحية</small></div>
+            <div class="metric"><span>24/7</span><small>تنسيق الرعاية</small></div>
+            <div class="metric"><span>100%</span><small>تركيز الجودة</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </div>
+    <section class="section">
+      <div class="container">
+        <div class="section-header en">
+          <p class="section-tag">Why choose us</p>
+          <h2>Integrated care built around the community.</h2>
+        </div>
+        <div class="section-header ar hidden">
+          <p class="section-tag">لماذا نحن</p>
+          <h2>رعاية متكاملة تُبنى حول المجتمع.</h2>
+        </div>
+        <div class="three-grid">
+          <article class="info-card en">
+            <h3>Primary care access</h3>
+            <p>Convenient access to preventive, clinical, and family-focused care that supports long-term health outcomes.</p>
+          </article>
+          <article class="info-card ar hidden">
+            <h3>الوصول إلى الرعاية الأولية</h3>
+            <p>وصول مريح إلى الرعاية الوقائية والسريرية والمتمحورة حول الأسرة لدعم نتائج صحية طويلة الأمد.</p>
+          </article>
+
+          <article class="info-card en">
+            <h3>Home-based services</h3>
+            <p>Flexible nurse-led support for patients needing in-home assessments, follow-up, medication guidance, and recovery planning.</p>
+          </article>
+          <article class="info-card ar hidden">
+            <h3>الخدمات المنزلية</h3>
+            <p>دعم مرن بقيادة ممرضين للمرضى الذين يحتاجون إلى تقييم منزلي، ومتابعة، وتوجيه دوائي، وتخطيط التعافي.</p>
+          </article>
+
+          <article class="info-card en">
+            <h3>Public health outreach</h3>
+            <p>Community mobilization and education to improve disease prevention, health awareness, and service continuity.</p>
+          </article>
+          <article class="info-card ar hidden">
+            <h3>التوعية الصحية العامة</h3>
+            <p>تعبئة مجتمعية وتعليم صحي لتحسين الوقاية من الأمراض، وزيادة الوعي الصحي، واستمرار الخدمة.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-bg">
+      <div class="container">
+        <div class="two-column">
+          <div>
+            <div class="section-header en">
+              <p class="section-tag">Our model</p>
+              <h2>One network, coordinated care.</h2>
+            </div>
+            <div class="section-header ar hidden">
+              <p class="section-tag">نموذجنا</p>
+              <h2>شبكة واحدة، رعاية منسقة.</h2>
+            </div>
+            <ul class="check-list en">
+              <li>Integrated provider coordination</li>
+              <li>Referral and case management workflow</li>
+              <li>Home care and nursing outreach</li>
+              <li>Quality assurance and compliance oversight</li>
+              <li>Bilingual resources for clinical teams</li>
+            </ul>
+            <ul class="check-list ar hidden">
+              <li>تنسيق مزودين متكامل</li>
+              <li>سير عمل الإحالة وإدارة الحالات</li>
+              <li>الرعاية المنزلية والتمريض الميداني</li>
+              <li>ضمان الجودة والامتثال</li>
+              <li>موارد ثنائية اللغة للفرق السريرية</li>
+            </ul>
+          </div>
+          <div class="panel-box large">
+            <div class="mini-label en">Priority areas</div>
+            <div class="mini-label ar hidden">المجالات ذات الأولوية</div>
+            <div class="pill-row en">
+              <span>Community clinics</span>
+              <span>Home health</span>
+              <span>Prevention</span>
+              <span>Education</span>
+            </div>
+            <div class="pill-row ar hidden">
+              <span>العيادات المجتمعية</span>
+              <span>الرعاية المنزلية</span>
+              <span>الوقاية</span>
+              <span>التثقيف</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <div class="container">
-      <div>SOLOMON.AI — Community Health Care Center &middot; <span class="small">Bilingual policies & SOPs</span></div>
-      <div class="small" style="margin-top:6px">Contact: <a class="links" href="mailto:labloob8@gmail.com">labloob8@gmail.com</a> &nbsp;|&nbsp; <a class="links" href="https://github.com/labloob/SOLOMON.AI">Repository</a></div>
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div>
+        <div class="brand-name">SOLOMON.AI</div>
+        <p class="en">Community-focused healthcare guidance and operations.</p>
+        <p class="ar hidden">إرشادات وتشغيل رعاية صحية موجهة نحو المجتمع.</p>
+      </div>
+      <div class="footer-links">
+        <a href="provider-network.html">Provider Network</a>
+        <a href="outreach.html">Outreach</a>
+        <a href="contact.html">Contact</a>
+      </div>
     </div>
   </footer>
 
-  <script>
-    function setLang(lang){
-      const en = document.getElementById('en-card');
-      const ar = document.getElementById('ar-card');
-      const modulesAr = document.getElementById('modules-ar');
-      const modulesEnList = document.querySelectorAll('#modules .card')[0];
-      if(lang==='ar'){
-        en.style.display='none'; ar.style.display='block';
-        modulesAr.style.display='block'; modulesEnList.style.display='none';
-        document.documentElement.lang='ar';
-      } else {
-        en.style.display='block'; ar.style.display='none';
-        modulesAr.style.display='none'; modulesEnList.style.display='block';
-        document.documentElement.lang='en';
-      }
-    }
-    // default language
-    setLang('en');
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
