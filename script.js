@@ -6,19 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
   function applyLanguage(lang) {
     const isArabic = lang === 'ar';
 
-    englishEls.forEach((el) => {
-      el.classList.toggle('hidden', isArabic);
-    });
+    englishEls.forEach((el) => el.classList.toggle('hidden', isArabic));
+    arabicEls.forEach((el) => el.classList.toggle('hidden', !isArabic));
 
-    arabicEls.forEach((el) => {
-      el.classList.toggle('hidden', !isArabic);
-    });
+    langButtons.forEach((btn) => btn.classList.toggle('active', btn.dataset.lang === lang));
 
-    langButtons.forEach((btn) => {
-      btn.classList.toggle('active', btn.dataset.lang === lang);
-    });
-
+    // set direction for Arabic pages that are shown
     document.documentElement.lang = lang;
+    if (isArabic) document.documentElement.dir = 'rtl'; else document.documentElement.dir = 'ltr';
   }
 
   langButtons.forEach((btn) => {
