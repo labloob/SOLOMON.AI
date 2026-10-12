@@ -1,71 +1,71 @@
 # SOLOMON.AI
 
-English / العربية
+Community Health Care Center / مركز الرعاية الصحية المجتمعية
 
 ## Project Overview
 
-SOLOMON.AI is a bilingual healthcare management framework designed to support nursing and health care services, providers, and operational teams with clear policies, standard procedures, and practical SOP templates.
+SOLOMON.AI is a bilingual healthcare management framework designed for a Community Health Care Center that delivers nursing, preventive care, health education, family support, and community-based clinical services.
 
-This repository provides a structured approach to governance, patient safety, documentation, clinical quality, incident reporting, compliance, and service excellence for nursing and healthcare organizations.
+This repository provides a structured approach to governance, patient safety, documentation, quality assurance, infection prevention, incident reporting, and operational excellence for community health care centers and provider teams.
 
 ## Objectives
 
-- Standardize nursing and healthcare practices
+- Standardize nursing and community health practices
 - Improve patient safety and continuity of care
+- Support preventive, primary, and family-centered care
 - Promote compliance with professional and regulatory standards
-- Maintain clear documentation and reporting procedures
-- Support staff accountability and quality improvement
-- Provide bilingual English/Arabic documentation for operational use
-
-## Repository Structure
-
-- `README.md` — project overview and purpose
-- `docs/policy-dictionary.md` — bilingual definitions of key terms
-- `docs/policies-and-procedures.md` — core policy and procedure framework
-- `docs/sop-templates.md` — ready-to-use SOP templates
-- `docs/incident-report-form.md` — incident reporting and follow-up form
+- Maintain accurate documentation and reporting
+- Provide bilingual English/Arabic resources for staff and management
 
 ## Scope
 
-This framework applies to care providers, nursing staff, clinical teams, administrative personnel, and support functions involved in patient care and healthcare service delivery.
+This framework is designed for community health clinics, family health units, nursing teams, care coordinators, community educators, administrators, and support staff involved in delivering healthcare services to individuals and families.
+
+## Repository Structure
+
+- `README.md` — project overview and the community healthcare focus
+- `docs/policy-dictionary.md` — key bilingual healthcare and community care terms
+- `docs/policies-and-procedures.md` — policies and operating procedures
+- `docs/sop-templates.md` — ready-to-use Standard Operating Procedures
+- `docs/incident-report-form.md` — incident reporting and follow-up form
 
 ## Main Theme
 
-“Quality care, safety, transparency, and accountability in nursing and healthcare services.”
+“Care for the community, safety for every patient, and excellence in every service.”
 
 ## Arabic
 
 # SOLOMON.AI
 
-النسخة الإنجليزية / العربية
+مركز الرعاية الصحية المجتمعية / Community Health Care Center
 
 ## نظرة عامة على المشروع
 
-SOLOMON.AI هو إطار إداري وصحي ثنائي اللغة مصمم لدعم خدمات التمريض والرعاية الصحية، مقدمي الخدمة، والفرق التشغيلية من خلال سياسات واضحة، إجراءات موحدة، وقوالب SOP عملية.
+SOLOMON.AI هو إطار إداري وصحي ثنائي اللغة مصمم لمركز الرعاية الصحية المجتمعية الذي يقدم خدمات التمريض، والرعاية الوقائية، والتثقيف الصحي، ودعم الأسرة، والخدمات السريرية القائمة على المجتمع.
 
-يقدم هذا المستودع نهجًا منظمًا للحوكمة، سلامة المرضى، التوثيق، الجودة السريرية، الإبلاغ عن الحوادث، الالتزام، وتحسين جودة الخدمة في منظمات التمريض والرعاية الصحية.
+يقدم هذا المستودع نهجًا منظمًا للحوكمة، وسلامة المرضى، والتوثيق، وضمان الجودة، والوقاية من العدوى، والإبلاغ عن ��لحوادث، والتميز التشغيلي لمراكز الرعاية الصحية المجتمعية وفرق مقدمي الخدمة.
 
 ## الأهداف
 
-- توحيد ممارسات التمريض والرعاية الصحية
-- تحسين سلامة المرضى واستمرار الرعاية
-- تعزيز الامتثال للمعايير المهنية والتنظيمية
-- الحفاظ على توثيق واضح وإجراءات إبلاغ
-- دعم مساءلة الموظفين وتحسين الجودة
-- توفير وثائق ثنائية اللغة بالإنجليزية والعربية للاستخدام التشغيلي
-
-## هيكل المستودع
-
-- `README.md` — نظرة عامة على المشروع والغرض
-- `docs/policy-dictionary.md` — تعريفات ثنائية اللغة للمصطلحات الأساسية
-- `docs/policies-and-procedures.md` — إطار السياسات والإجراءات الأساسية
-- `docs/sop-templates.md` — قوالب SOP جاهزة للاستخدام
-- `docs/incident-report-form.md` — نموذج للإبلاغ عن الحوادث والمتابعة
+- توحيد ممارسات التمريض والرعاية الصحية المجتمعية
+- تحسين سلامة المرضى واستمرارية الرعاية
+- دعم الرعاية الوقائية والرعاية الأولية والمتمحورة حول الأسرة
+- تعزيز الالتزام بالمعايير المهنية والتنظيمية
+- الحفاظ على توثيق دقيق وإجراءات إبلاغ
+- توفير موارد ثنائية اللغة بالإنجليزية والعربية للموظفين والإدارة
 
 ## النطاق
 
-ينطبق هذا الإطار على مقدمي الرعاية، موظفي التمريض، الفرق السريرية، الموظفين الإداريين، والوظائف الداعمة المشاركة في رعاية المرضى وتقديم الخدمات الصحية.
+تم تصميم هذا الإطار لمراكز الرعاية الصحية المجتمعية، ووحدات الرعاية الأسرية، وفرق التمريض، ومنسقي الرعاية، والمربين الصحيين المجتمعيين، والإداريين، والموظفين المساندين المشاركين في تقديم الخدمات الصحية للأفراد والأسر.
+
+## هيكل المستودع
+
+- `README.md` — نظرة عامة على المشروع والتركيز على الرعاية الصحية المجتمعية
+- `docs/policy-dictionary.md` — مصطلحات صحية ومجتمعية ثنائية اللغة
+- `docs/policies-and-procedures.md` — السياسات والإجراءات التشغيلية
+- `docs/sop-templates.md` — قوالب إجراءات تشغيل موحدة جاهزة للاستخدام
+- `docs/incident-report-form.md` — نموذج للإبلاغ عن الحوادث والمتابعة
 
 ## الموضوع الرئيسي
 
-“رعاية عالية الجودة، سلامة، شفافية، ومساءلة في خدمات التمريض والرعاية الصحية.”
+“رعاية المجتمع، سلامة كل مريض، وتميز في كل خدمة.”
